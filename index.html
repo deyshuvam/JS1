@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <style>
+
+        .add {
+            height: 60px;
+            width: 140px;
+            border-radius: 8px;
+            background-color: rgb(32, 139, 253);
+            color: white;
+            font-size: 16px;
+            margin-right: 10px;
+            border: none;
+        }
+
+        .add:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .sub {
+            height: 60px;
+            width: 140px;
+            border-radius: 8px;
+            background-color: rgb(32, 139, 253);
+            color: white;
+            font-size: 16px;
+            margin-right: 10px;
+            border: none;
+        }
+
+        .sub:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .mul {
+            height: 60px;
+            width: 140px;
+            border-radius: 8px;
+            background-color: rgb(32, 139, 253);
+            color: white;
+            font-size: 16px;
+            margin-right: 10px;
+            border: none;
+        }
+
+        .mul:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .div {
+            height: 60px;
+            width: 140px;
+            border-radius: 8px;
+            background-color: rgb(32, 139, 253);
+            color: white;
+            font-size: 16px;
+            margin-right: 10px;
+            border: none;
+        }
+
+        .div:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .num1 {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .num2 {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .op {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .out {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(250, 225, 144);">
+    <span id="num1-el" class="num1">The first Number entered :: </span>
+    <br>
+    <span id="num2-el" class="num2">The second Number entered :: </span>
+    <br>
+    <br>
+    <p class="op">CHOOSE OPERATION ::</p>
+    <button id="add-btn" class="add" onclick="add()">ADD</button>
+    <button id="sub-btn" class="sub" onclick="sub()">SUBTRACT</button>
+    <button id="mul-btn" class="mul" onclick="mul()">MULTIPLY</button>
+    <button id="div-btn" class="div" onclick="div()">DIVIDE</button>
+    <br>
+    <br>
+    <span id="out-el" class="out">OUTPUT :: </span>
+    <script src="index.js"></script>
+</body>
+</html>
